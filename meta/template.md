@@ -22,7 +22,7 @@ An overview template is to be used for a top level topic that would spawn off a 
 For Example, Structured Light Scanning would be a top level topic, and use an overview page.  
 These pages contain broad information about the topic without going into meticulous detail, allowing the reader to quickly understand and read further if needed.
 
-The template for Software pages can be found here: [template_overview](/template_overview)
+The template for Software pages can be found here: [template_overview](templates/template_overview.md).
 
 ## Software Templates
 
@@ -32,11 +32,11 @@ When using it, please fill out all fields that are applicable in the tables incl
 
 Since software is such a broad topic, we also request that the sub pages listed in Resource_Templates are used, as things such as API documentation, tutorials and other useful insights are essential for anyone who uses that software.
 
-The template for Software pages can be found here: [template_software](template_software)
+The template for Software pages can be found here: [template_software](templates/template_software.md).
 
 ## Hardware Templates
 
-The template for Hardware pages can be found here: [template_hardware](template_hardware)
+The template for Hardware pages can be found here: [template_hardware](templates/template_hardware.md).
 
 ## Workflow Templates
 
@@ -44,7 +44,7 @@ Workflow templates are to be used for anything that is to be considered a ‘Gui
 
 For instance, workflows could be things such as an order of operations for baking textures, fixing lidar station misalignment or even how to get optimal polarizer orientation
 
-The template for Workflows can be found here: [template_workflow](template_workflow)
+The template for Workflows can be found here: [template_workflow](templates/template_workflow.md).
 
 ## Comparison Templates
 
@@ -60,4 +60,4 @@ These pages will be curated to ensure that there is no misinformation or advice 
 
 All resource pages must follow this naming convention: [parentPageName]_resources
 
-the template for resources can be found here [template_resources](template_resources)
+the template for resources can be found here [template_resources](templates/template_resources.md).

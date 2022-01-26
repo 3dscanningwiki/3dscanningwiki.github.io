@@ -17,11 +17,11 @@ This wiki has been setup by the 3D Scanning Discord ([https://discord.gg/rdaaQSz
 
 ## Overview
 
-[Photogrammetry](Photogrammetry)  
-[Lidar / ToF](Lidar)  
-[Photometric Stereo](Photometric_Stereo)  
-[Survey](Survey)  
-[Structured Light](Structured_Light)
+[Photogrammetry](Photogrammetry.md)  
+[Lidar / ToF](Lidar.md)  
+[Photometric Stereo](Photometric_Stereo.md)  
+[Survey](Survey.md)  
+[Structured Light](Structured_Light.md)
 
 ## Workflow
 
@@ -68,9 +68,9 @@ Raw Data
 
 As this wiki is new, we have to set out some basic guidelines for all pages to follow, this includes page priorities and restrictions on content.  
 
-Our current page priority list can be found here at [page priority list](meta/page_priority_list).
+Our current page priority list can be found here at [page priority list](meta/page_priority_list.md).
 
-We are also working on setting up the [template](meta/template) for all of our articles to be based upon.
+We are also working on setting up the [template](meta/template.md) for all of our articles to be based upon.
 
 ## Submission Rules
 
