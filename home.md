@@ -13,15 +13,15 @@ This Wiki is a work in progress, we would love for any industry professionals to
 
 The 3D scanning wiki aims to be a strong source for everything needed to work in the 3D scanning industry, from hobbyist to professional levels.  
 
-This wiki has been setup by the 3D Scanning Discord ([https://discord.gg/rdaaQSzy](https://discord.gg/rdaaQSzy)) as a dedicated place to store valuable information, links and workflows.
+This wiki has been setup by the [3D Scanning Discord](https://discord.gg/rdaaQSzy) as a dedicated place to store valuable information, links and workflows.
 
 ## Overview
 
-[Photogrammetry](Photogrammetry.md)  
-[Lidar / ToF](Lidar.md)  
-[Photometric Stereo](Photometric_Stereo.md)  
-[Survey](Survey.md)  
-[Structured Light](Structured_Light.md)
+* [Photogrammetry](Photogrammetry.md)  
+* [Lidar / ToF](Lidar.md)  
+* [Photometric Stereo](Photometric_Stereo.md)  
+* Survey 
+* [Structured Light](Structured_Light.md)
 
 ## Workflow
 
@@ -33,20 +33,20 @@ Automation
 
 ## Concepts
 
-Polarization / Cross Polarization  
-SFM  
-MVS  
-SLAM  
-SIFT  
-F.A.S.T  
-BRDF  
-Point Cloud  
-Geometry  
-Ground Truth  
-Control Point  
-Coded Marker  
-In Camera Masking  
-Raw Data
+* Polarization / Cross Polarization  
+* SFM  
+* MVS  
+* SLAM  
+* SIFT  
+* F.A.S.T  
+* BRDF  
+* Point Cloud  
+* Geometry  
+* Ground Truth  
+* Control Point  
+* Coded Marker  
+* In Camera Masking  
+* Raw Data
 
 ## Use Cases
 
