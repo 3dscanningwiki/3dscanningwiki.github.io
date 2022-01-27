@@ -1,8 +1,7 @@
 ---
 title: 3D Scanning wiki template
 description: 
-published: true
-tags: 
+tags: [meta, template]
 ---
 
 # 3D Scanning Wiki templates

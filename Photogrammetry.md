@@ -1,7 +1,6 @@
 ---
 title: Photogrammetry
 description: Using Photographs to measure and extract information about a subject
-published: true
 date: 2021-09-24T07:27:59.706Z
 tags: 
 ---

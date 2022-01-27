@@ -1,8 +1,7 @@
 ---
 title: Structured Light
 description: 
-published: true
-tags: 
+tags: []
 ---
 
 # Structured Light

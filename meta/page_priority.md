@@ -1,11 +1,11 @@
 ---
 title: Page Priority List
 description: 
-published: true
-tags: 
+tags: [meta]
 ---
-# Page Priority List
+# Page Priority
 
-1.  Overview Pages
-2.  Workflow
-3.  Concepts
+1. Overview Pages
+1. Workflow
+1. Concepts
+1. Software 

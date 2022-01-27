@@ -1,3 +1,8 @@
+---
+title: Github README
+published: false
+---
+
 # The 3D Scanning Wiki
 
 Welcome to the 3D Scanning Wiki!

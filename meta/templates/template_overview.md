@@ -1,8 +1,7 @@
 ---
-title: Template_Overview
+title: Overview Template
 description: Template for the overview category of pages
-published: true
-tags: 
+tags: [meta, template, overview]
 ---
 
 # Subject Name

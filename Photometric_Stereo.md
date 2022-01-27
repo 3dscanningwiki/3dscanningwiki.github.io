@@ -1,8 +1,7 @@
 ---
 title: Photometric Stereo
 description: 
-published: true
-tags: photometric, photometric stereo, surface capture
+tags: [photometric, photometric stereo, surface capture]
 ---
 
 # Photometric Stereo

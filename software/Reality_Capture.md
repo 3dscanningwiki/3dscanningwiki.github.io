@@ -1,10 +1,10 @@
 ---
-title: Software Template
-description: Template for pages about software solutions
-tags: [meta, template, software]
+title: Reality Capture
+description: Reality Capture Photogrammetry Software
+tags: [software]
 ---
 
-# Software Name
+# Reality Capture
 
 About Software
 
@@ -19,11 +19,6 @@ Give an overview of the software, Are there multible versions? can you use it fo
 
 For topics which need to break down  even further, IE specefic details about how it writes out obj files.  
 If this information block gets too busy its best split into its own page.
-
-## Software License / Pricing
-
-Give an overview of the licensing scheme and assosiated price of the software, or link to the pricing page of the 
-vendor.
 
 ## Software Features
 
