@@ -1,0 +1,41 @@
+name: Publish wiki to github pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Checkout sveltekit website
+        uses: actions/checkout@v2
+        with: 
+          repository: 3dscanningwiki/Wiki-website
+      - name: Checkout content
+        uses: actions/checkout@v2
+        with: 
+          path: content
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.4.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          #cname: 3dscanning.wiki
+          force_orphan: true
+          user_name: GitHub Action
+          user_email: action@github.com
+          publish_branch: gh-pages
+        env:
+          CI: true
