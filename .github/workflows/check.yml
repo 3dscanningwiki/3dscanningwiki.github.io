@@ -1,0 +1,29 @@
+name: Check if the pull request is good to merge.
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Checkout sveltekit website
+        uses: actions/checkout@v2
+        with: 
+          repository: 3dscanningwiki/Wiki-website
+      - name: Checkout content
+        uses: actions/checkout@v2
+        with: 
+          path: content
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
