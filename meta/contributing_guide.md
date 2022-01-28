@@ -17,6 +17,8 @@ If you want to create a new page, look the [list of templates](template.md) if o
 
 Please try to be conservative with the amount (and size) of images used on this wiki. This wiki is currently hosted on github which is designed for text-based documents and not images.
 
+For pages that require many, or high resolution images, consider hosting them on a reliable image host like [imgur](https://imgur.com/) for now.
+
 
 ## Markdown format
 
