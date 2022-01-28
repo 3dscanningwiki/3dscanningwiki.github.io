@@ -28,5 +28,21 @@ For an in-debth reference see the [Markdown documentation](https://docs.github.c
 
 Currently html is not allowed. If you need it, please open an [issue](https://github.com/3dscanningwiki/Wiki-website/issues/new) and explain your usecase.
 
+### Comments
+
 Comments can be added to add notes visible only when editing the file. They take the following form:
 `<!-- my comment here  -->`. Due to a limitation in our markdown parser, currently only single line comments are supported.
+
+### Footnotes
+
+Footnote, citations and similar references can be added with the footnotes addon:
+
+```
+Example text with an ^[Inline footnote] and an external footnote [^1].
+
+[^1]: Like this.
+```
+
+Example text with an ^[Inline footnote] and an external footnote [^1].
+
+[^1]: Like this.

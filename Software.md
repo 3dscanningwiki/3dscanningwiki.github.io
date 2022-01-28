@@ -33,6 +33,7 @@ tags: [software, overview]
 ### Real Time
 
 * Babylon.js
+* InstaLOD
 * Marmoset Toolbag
 * PlayCanvas
 * Sketchfab
@@ -75,5 +76,16 @@ tags: [software, overview]
 
 ### Remeshing
 
+* AutoRemesher
+* Blender
+* Exoside Quad Remesher
 * Instant Meshes
-* 
+* QuadriFlow
+
+### Texture Baking
+
+* InstaLOD
+* Knald
+* Marmoset Toolbar
+* Substance
+* xNormal
