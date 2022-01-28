@@ -32,7 +32,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          cname: 3dscanning.wiki
+          #cname: 3dscanning.wiki
           force_orphan: true
           user_name: GitHub Action
           user_email: action@github.com
