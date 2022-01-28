@@ -27,3 +27,6 @@ This wiki is made using the Markdown formatting language, which is mostly self-e
 For an in-debth reference see the [Markdown documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 Currently html is not allowed. If you need it, please open an [issue](https://github.com/3dscanningwiki/Wiki-website/issues/new) and explain your usecase.
+
+Comments can be added to add notes visible only when editing the file. They take the following form:
+`<!-- my comment here  -->`. Due to a limitation in our markdown parser, currently only single line comments are supported.

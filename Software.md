@@ -6,9 +6,7 @@ tags: [software, overview]
 
 # Software
 
-<!-- 
-Lists are sorted alphabetically 
--->
+<!-- Lists are sorted alphabetically -->
 
 ## Photogrammetry
 
