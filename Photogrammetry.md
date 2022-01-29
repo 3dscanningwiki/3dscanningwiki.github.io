@@ -25,9 +25,7 @@ If this information block gets too busy its best split into its own page.
 
 ## Software
 
-Please list any software here. 
-There can be comparison charts for features however there must be zero bias in this 
-Any and all bias will be removed.
+See the Photogrammetry section on the [Software](Software.md) page.
 
 ## Hardware
 
@@ -35,11 +33,41 @@ Photogrammetry hardware is a broad topic, however here it is broken down into tw
 
 ### Data Acquisition
 
-As a rule of thumb, best tool for capturing images is the camera you have on you at the time, however when it comes to acquiring the best data there are several key factors to consider
+As a rule of thumb, best tool for capturing images is the camera you have on you at the time, however when it comes to acquiring the best data there are several key factors to consider:
 
-Lighting
+* Lighting
+* Depth of field
+* Shutter speed
+* ISO
+* Sharpness
 
-Please see Photogrammetry Hardware for a full list of commonly used equipment
+#### Lighting
+
+In general it is preferred to have even diffuse lighting from all sides, and no visible shadows or highlights on the object itself. Moving shadows can be interpreted by the photogrammetry software as a feature point, which can negatively impact the resulting geometry. Fixed shadows will most likely not impact geometry too much, but it will be visible in the texture as baked in lighting, which will look bad if the object is rendered in a scene where the lighting does not match the condition where the object was scanned.
+
+The easiest way to achieve a very diffuse light is to wait for a overcast day and scan the object outdoors.
+
+Other options include big soft-boxes and photography tents.
+
+Most professional 3d scanners use a ring flash light around the camera lense. This way the visible part of the object is fully illuminated, and no shadows are ever visible to the camera.
+
+#### Depth of field
+
+Photogrammetry software searches for feature points in the images, which it can match with the same point in as many images as possible. These feature points need to have a high contrast and be as sharp as possible. Therefore the images need to have as much in focus as possible. It is generally recommended to use an aperture with f8 to f11 ^[https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/].
+
+#### Shutter speed
+
+When scanning an object handheld, it is important to use a fast shutter speed, as motion blur will make finding the feature points more difficult or even impossible. In general it is recommended to keep the shutter speed as high as possible, although when using a tripod with an external shutter release the shutter speed can be decreased to allow for a lower ISO or smaller aperture.
+
+
+#### ISO
+
+The ISO setting of a digital camera determines how sensitive the camera sensor is to light. A higher ISO setting results in a brighter image. As a side effect, a high sensitivity also means the sensor will pick up more noise. To get the best results, it is preferable to keep the ISO as low (close to ISO 100) as possible. Depending on the sensor higher values are tolerable. 
+
+
+#### Sharpness
+
+For the same reasons as mentioned in the depth of field section, it is preferable to capture as sharp images as possible. Generally the sharpness depends on the camera lense. For most lenses there exists some documentation on their sharpness and what lense settings (zoom, aperture) result in the sharpest image. 
 
 ## Resources
 
