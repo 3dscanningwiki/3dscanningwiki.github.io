@@ -21,7 +21,7 @@ Please make as many of these main level information blocks as needed to cover a 
 
 ### Child Information
 
-For topics which need to break down even further, IE specefic details about feature detection. 
+For topics which need to break down even further, IE specific details about feature detection. 
 If this information block gets too busy its best split into its own page.
 
 ## Software

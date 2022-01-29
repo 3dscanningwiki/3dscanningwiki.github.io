@@ -13,11 +13,11 @@ Please note that you do not need to fill out all of these fields, only the ones 
 
 ## Specific Overview
 
-Give an overview of the software, Are there multible versions? can you use it for free? what is the expected industry for this software?
+Give an overview of the software, Are there multiple versions? can you use it for free? what is the expected industry for this software?
 
 ### Child Information
 
-For topics which need to break down even further, IE specefic details about how it writes out obj files. 
+For topics which need to break down even further, IE specific details about how it writes out obj files. 
 If this information block gets too busy its best split into its own page.
 
 ## Software License / Pricing
