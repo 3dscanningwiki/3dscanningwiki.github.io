@@ -1,12 +1,10 @@
 ---
 title: Photogrammetry
 description: Using Photographs to measure and extract information about a subject
-date: 2021-09-24T07:27:59.706Z
 tags: 
+wip: true
 ---
 # Photogrammetry
-
-*This topic is a work in progress and will look very unfinished.*
 
 **Photogrammetry** is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns.
 
@@ -16,7 +14,7 @@ There are many variants of Photogrammetry, however this topic will limited to th
 
 ## Methods
 
-Typical photogrammetry is seen as the process of taking many images of a surface.
+Typical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which converts the images to a point cloud. 
 
 ### Child Information
 
