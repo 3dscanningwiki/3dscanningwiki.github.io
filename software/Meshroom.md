@@ -11,7 +11,7 @@ It uses a node based workflow to control the reconstruction parameters.
 
 ## Specific Overview
 
-The meshroom software is a split into distinct parts: The user interface and the AliceVision backend. 
+The Meshroom software is a split into distinct parts: The user interface and the AliceVision backend. 
 The user interface contains the images pane, the 3D viewer and the graph editor, which can be used to define a processing pipeline. The configured pipeline can either be executed directly from the user interface, or be saved and executed using the headless command line version of Meshroom, for example on a server.
 
 
@@ -38,6 +38,8 @@ Meshroom needs a CUDA-enabled GPU (Nvidia). The [MeshroomCL](https://github.com/
 ## See Also
 
 <!--Is the software similar to another, but not linked directly in this page? Please link to any other topics that may be similar that people would want to read more on-->
+
+* [Meshroom Github](https://github.com/alicevision/meshroom)
 
 ## References
 

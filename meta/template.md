@@ -8,17 +8,17 @@ tags: [meta, template]
 
 ## About templates
 
-To successfully maintain a wiki with such a large potential for the information we need a solid template library  
-as we are breaking down each page type into its own category, we need to ensure that the information provided is consistent and easy to read.  
+To successfully maintain a wiki with such a large potential for the information we need a solid template library 
+as we are breaking down each page type into its own category, we need to ensure that the information provided is consistent and easy to read. 
 
-As we progress, these templates will be updated with nicer CSS.  
+As we progress, these templates will be updated with nicer CSS. 
 
-For now the templates are simple, with the goal of allowing for mass data entry.  
+For now the templates are simple, with the goal of allowing for mass data entry. 
 
 ## Overview Templates
 
-An overview template is to be used for a top level topic that would spawn off a lot of smaller child pages  
-For Example, Structured Light Scanning would be a top level topic, and use an overview page.  
+An overview template is to be used for a top level topic that would spawn off a lot of smaller child pages 
+For Example, Structured Light Scanning would be a top level topic, and use an overview page. 
 These pages contain broad information about the topic without going into meticulous detail, allowing the reader to quickly understand and read further if needed.
 
 The template for Software pages can be found here: [template_overview](templates/template_overview.md).
@@ -47,14 +47,14 @@ The template for Workflows can be found here: [template_workflow](templates/temp
 
 ## Comparison Templates
 
-Comparisons are to be used with caution, as while they are useful, they can also be very heavily biased. with this in mind we will only setup comparison pages if the data to compare allows the user to come to a conclusion based on what they read.  
+Comparisons are to be used with caution, as while they are useful, they can also be very heavily biased. with this in mind we will only setup comparison pages if the data to compare allows the user to come to a conclusion based on what they read. 
 Comparisons should never encourage one software over another.
 
 with this in mind, we explicitly request that no-one makes comparison pages without prior approval.
 
 ## Resource Templates
 
-Resources are sub-pages of any topic that may have lots of external information pertaining to everything from use cases, API reference, techniques or even blogs  
+Resources are sub-pages of any topic that may have lots of external information pertaining to everything from use cases, API reference, techniques or even blogs 
 These pages will be curated to ensure that there is no misinformation or advice that may lead people down incorrect paths.
 
 All resource pages must follow this naming convention: [parentPageName]_resources

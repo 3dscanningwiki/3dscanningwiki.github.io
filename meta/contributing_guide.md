@@ -17,7 +17,7 @@ If you want to create a new page, look the [list of templates](template.md) if o
 
 Please try to be conservative with the amount (and size) of images used on this wiki. This wiki is currently hosted on github which is designed for text-based documents and not images.
 
-For pages that require many, or high resolution images, consider hosting them on a reliable image host like [imgur](https://imgur.com/) for now.
+For pages that require many, or high resolution images, consider hosting them on a reliable image host like [imgur](https://imgur.com/upload) for now.
 
 
 ## Markdown format
@@ -31,7 +31,7 @@ Currently html is not allowed. If you need it, please open an [issue](https://gi
 ### Comments
 
 Comments can be added to add notes visible only when editing the file. They take the following form:
-`<!-- my comment here  -->`. Due to a limitation in our markdown parser, currently only single line comments are supported.
+`<!-- my comment here -->`. Due to a limitation in our markdown parser, currently only single line comments are supported.
 
 ### Footnotes
 
@@ -46,3 +46,10 @@ Example text with an ^[Inline footnote] and an external footnote [^1].
 Example text with an ^[Inline footnote] and an external footnote [^1].
 
 [^1]: Like this.
+
+## Special Pages
+
+Files in the github repository translate directly to pages of the wiki. This current page `/meta/contributing_guide.md` will be directly visible as `https://3dscanning.wiki/meta/contributing_guide`. There are however some special pages:
+
+* `/home.md` is the homepage
+* `/sidebar.md` contains the content of the sidebar
