@@ -10,7 +10,7 @@ wip: true
 
 Understanding how and why Photogrammetry is used, and where to use it is critical within the industry of digital acquisition.
 
-There are many variants of Photogrammetry, however this topic will limited to the the process of extracting useful data from images, with the end goal of producing 3 Dimensional measurements either for the further use in real time rendering, Manufacturing inspection and survey.
+There are many variants of Photogrammetry, however this topic will limited to the the process of extracting useful data from images, with the end goal of producing 3 Dimensional measurements either for the further use in real time rendering, manufacturing, inspection and survey.
 
 ## Methods
 
@@ -68,9 +68,16 @@ The ISO setting of a digital camera determines how sensitive the camera sensor i
 
 For the same reasons as mentioned in the depth of field section, it is preferable to capture as sharp images as possible. Generally the sharpness depends on the camera lense. For most lenses there exists some documentation on their sharpness and what lense settings (zoom, aperture) result in the sharpest image. 
 
+### Processing
+
 ## Resources
 
 Please link to any strong (generally unbiased) videos on the topic, if this gets too broad then please link to a sub page, ie "Photogrammetry_Resources"
+
+* Julia Haines. “Photogrammetry Workflow using a DSLR Camera”. Published September 24, 2019.
+  Full photogrammetry workflow using [Agisoft Metashape](software/Agisoft_Metashape.md) ^[https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/]
+
+
 
 ## See Also
 
