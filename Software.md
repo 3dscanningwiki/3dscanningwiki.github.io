@@ -7,6 +7,7 @@ tags: [software, overview]
 # Software
 
 <!-- Lists are sorted alphabetically -->
+<!-- Try to link to local wiki pages only. If it doesn't make sense to create a page on the wiki for a piece of software, append the link after the software name -->
 
 ## Photogrammetry
 
@@ -14,20 +15,18 @@ tags: [software, overview]
 * [Agisoft Metashape](software/Agisoft_Metashape.md)
 * Autodesk ReCap
 * Bentley ContextCapture
-* BigSFM
+* BigSFM [[Link]](https://www.cs.cornell.edu/projects/bigsfm/)
 * Bundler SfM
 * insight3d / insight3dng
 * [Meshroom](software/Meshroom.md)
-* OpenMVS
+* OpenMVS [[Link]](https://github.com/cdcseacave/openMVS)
 * Pix4D
 * [Reality Capture](software/Reality_Capture.md)
-* ScannerKiller
-* VisualSFM
+* VisualSFM [[Link]](http://ccwu.me/vsfm/)
 
 ## Photometric Stereo
 
-* Dabarti Capture
-* Realtime Photometric Stereo
+* Realtime Photometric Stereo [[Link]](https://github.com/NewProggie/Realtime-Photometric-Stereo)
 
 ## Scanning
 

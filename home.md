@@ -33,20 +33,20 @@ This wiki has been setup by the [3D Scanning Discord](https://discord.gg/zF2WPwp
 
 ## Concepts
 
-* Polarization / Cross Polarization 
-* SFM 
-* MVS 
-* SLAM 
-* SIFT 
+* [Polarization / Cross Polarization](concept/Polarization.md) 
+* [Structure From Motion (SFM)](concept/Structure_From_Motion.md) 
+* [Multi View Stereo (MVS)](concept/Multi_View_Stereo.md) 
+* [SLAM](concept/SLAM.md) 
+* [SIFT](concept/SIFT.md) 
 * F.A.S.T 
-* BRDF 
-* Point Cloud 
-* Geometry 
-* Ground Truth 
-* Control Point 
-* Coded Marker 
-* In Camera Masking 
-* Raw Data
+* [BRDF](concept/BRDF.md) 
+* [Point Cloud](concept/Point_Cloud.md) 
+* [Geometry](concept/Geometry.md) 
+* [Ground Truth](concept/Ground_Truth.md) 
+* [Control Point](concept/Control_Point.md) 
+* [Coded Marker](concept/Coded_Marker.md) 
+* In Camera Masking <!-- is this the void method? If yes, move to workflow -->
+* [Raw Image Data](concept/RAW.md)
 
 ## Use Cases
 
