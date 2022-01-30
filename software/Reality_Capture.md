@@ -1,7 +1,7 @@
 ---
 title: Reality Capture
 description: Reality Capture Photogrammetry Software
-tags: [software]
+tags: [software, photogrammetry]
 wip: true
 ---
 

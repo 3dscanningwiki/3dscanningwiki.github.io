@@ -1,6 +1,6 @@
 ---
 title: Structured Light
-description: 
+description: 3D scanning technique using projected light and a camera system.
 tags: [overview, structured light]
 wip: true
 ---

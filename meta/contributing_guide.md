@@ -1,3 +1,9 @@
+---
+title: Contributing guide
+description: How to add and update content on this wiki.
+tags: [meta]
+---
+
 # Contributing Guide
 
 

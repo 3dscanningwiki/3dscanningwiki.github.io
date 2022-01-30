@@ -1,7 +1,7 @@
 ---
 title: The 3D Scanning Wiki
 description: The origin for all things 3D scanning related
-tags: [home, overview]
+tags: [overview]
 ---
 
 # Welcome to the 3D Scanning Wiki
