@@ -1,5 +1,5 @@
 ---
-title: The 3D Scanning Wiki
+title: Home
 description: The origin for all things 3D scanning related
 tags: [overview]
 ---
@@ -30,6 +30,7 @@ This wiki has been setup by the [3D Scanning Discord](https://discord.gg/zF2WPwp
 * Image Processing 
 * Image Manipulation 
 * Automation
+* The Void Method
 
 ## Concepts
 
@@ -56,7 +57,13 @@ This wiki has been setup by the [3D Scanning Discord](https://discord.gg/zF2WPwp
 * XR 
 * Reverse Engineering 
 * Concept and Design 
-* Measurement 
+* Measurement
+
+## DIY Scanning - Projects to follow along
+
+* Building a turntable
+* Cross polarized ring flash
+
 
 ## Resources
 
