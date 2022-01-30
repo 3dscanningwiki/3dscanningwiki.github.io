@@ -1,7 +1,8 @@
 ---
-title: Github README
 published: false
 ---
+
+<!-- This page is only visible on GitHub, not on the website. -->
 
 # The 3D Scanning Wiki
 

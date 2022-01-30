@@ -1,5 +1,5 @@
-<!-- All links in here must be absolute links -->
-<!-- i.e. they must start with a "/" -->
+<!-- This page is rendered as the sidebar on the website, please be conservative on adding more content -->
+<!-- All internal links in here must be absolute links, i.e. they must start with a "/" -->
 
 * [Home](/)
 

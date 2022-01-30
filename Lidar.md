@@ -1,15 +1,14 @@
 ---
 title: Lidar / ToF
-description: 
-tags: []
+description: Measuring distances by measuring the delay until the return of a laser pulse.
+tags: [overview, lidar, time of flight]
+wip: true
 ---
 # Lidar / ToF
 
-*This topic is a work in progress and will look very unfinished.*
-
 ## Methods
 
-[**Lidar**](https://en.wikipedia.org/wiki/Lidar) ([/ˈlaɪdɑːr/](https://en.wikipedia.org/wiki/Help:IPA/English), also **LIDAR**, or **LiDAR**; sometimes **LADAR**) is a method for determining [ranges](https://en.wikipedia.org/wiki/Ranging) (variable distance) by targeting an object with a [laser](https://en.wikipedia.org/wiki/Laser) and measuring the time for the reflected light to return to the receiver. Lidar can also be used to make digital [3-D representations](https://en.wikipedia.org/wiki/3D_modeling) of areas on the earth's surface and ocean bottom, due to differences in laser return times, and by varying laser wavelengths. It has terrestrial, airborne, and mobile applications.[[1]](https://en.wikipedia.org/wiki/Lidar#cite_note-1)[[2]](https://en.wikipedia.org/wiki/Lidar#cite_note-2) 
+[**Lidar**](https://en.wikipedia.org/wiki/Lidar) ([/ˈlaɪdɑːr/](https://en.wikipedia.org/wiki/Help:IPA/English), also **LIDAR**, or **LiDAR**; sometimes **LADAR**) is a method for determining [ranges](https://en.wikipedia.org/wiki/Ranging) (variable distance) by targeting an object with a [laser](https://en.wikipedia.org/wiki/Laser) and measuring the time for the reflected light to return to the receiver. Lidar can also be used to make digital [3-D representations](https://en.wikipedia.org/wiki/3D_modeling) of areas on the earth's surface and ocean bottom, due to differences in laser return times, and by varying laser wavelengths. It has terrestrial, airborne, and mobile applications.^[https://en.wikipedia.org/wiki/Lidar#cite_note-1]^[https://en.wikipedia.org/wiki/Lidar#cite_note-2] 
 
 ### Child Information
 

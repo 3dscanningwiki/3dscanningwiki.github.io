@@ -1,12 +1,11 @@
 ---
 title: Structured Light
 description: 
-tags: []
+tags: [overview, structured light]
+wip: true
 ---
 
 # Structured Light
-
-*This topic is a work in progress and will look very unfinished.*
 
 ## Methods
 

@@ -2,6 +2,7 @@
 title: Agisoft Metashape
 description: Metashape photogrammetry software by Agisoft.
 tags: [software, photogrammetry]
+wip: true
 ---
 
 # Agisoft Metashape

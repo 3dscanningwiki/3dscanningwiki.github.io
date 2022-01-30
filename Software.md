@@ -24,6 +24,11 @@ tags: [software, overview]
 * ScannerKiller
 * VisualSFM
 
+## Photometric Stereo
+
+* Dabarti Capture
+* Realtime Photometric Stereo
+
 ## Scanning
 
 * Polyga FlexScan3D

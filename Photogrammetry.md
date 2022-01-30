@@ -1,7 +1,7 @@
 ---
 title: Photogrammetry
 description: Using Photographs to measure and extract information about a subject
-tags: 
+tags: [overview, photogrammetry]
 wip: true
 ---
 # Photogrammetry
@@ -14,12 +14,11 @@ There are many variants of Photogrammetry, however this topic will limited to th
 
 ## Methods
 
-Typical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which converts the images to a point cloud. 
+Typical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which processes them to extract info about the photographed objects. 
 
-### Child Information
+<!-- ### Child Information -->
 
-For topics which need to break down even further, IE specific details about feature detection. 
-If this information block gets too busy its best split into its own page.
+<!-- For topics which need to break down even further, IE specific details about feature detection. If this information block gets too busy its best split into its own page. -->
 
 ## Applications
 
