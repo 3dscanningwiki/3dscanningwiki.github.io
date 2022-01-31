@@ -12,8 +12,10 @@ Thank you for considering to contribute to the wiki! If you need a place to star
 ## Making changes
 
 To make changes you will need a [GitHub account](https://github.com/join). If you have an account there are two ways to make changes to the wiki:
-* You can either clone the whole repository and edit the content locally, then push the changes back to github (basic knowledge of [git](https://git-scm.com/) required).
-* You can make changes directly on the website. For example visit [this current document](https://github.com/3dscanningwiki/Wiki/blob/main/meta/contributing_guide.md) on github and on the top-right corner of the file you should see a button "Edit this file".
+* You can either clone the whole [repository](https://github.com/3dscanningwiki/3dscanningwiki.github.io/) and edit the content locally, then push the changes back to github (basic knowledge of [git](https://git-scm.com/) required).
+* You can make changes directly on the website. For example click the "Edit this page" link at the bottom of any page and the editor will open in a new tab. 
+
+For a tutorial on how to use the editor, watch [this video](https://www.youtube.com/watch?v=gANADdb_cs0&start=119&end=250) on how to use github.dev to edit the wiki and commit the changes.
 
 For any changes to go live, they have to get *merged* into the repository. This will happen as soon as someone has taken a look at your changes and accepted them.
 
