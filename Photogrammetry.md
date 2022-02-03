@@ -72,7 +72,7 @@ For the same reasons as mentioned in the depth of field section, it is preferabl
 
 ## Resources
 
-Please link to any strong (generally unbiased) videos on the topic, if this gets too broad then please link to a sub page, ie "Photogrammetry_Resources"
+<!-- Please link to any strong (generally unbiased) videos on the topic, if this gets too broad then please link to a sub page, ie "Photogrammetry_Resources" -->
 
 * Julia Haines. “Photogrammetry Workflow using a DSLR Camera”. Published September 24, 2019.
   Full photogrammetry workflow using [Agisoft Metashape](software/Agisoft_Metashape.md) ^[https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/]
