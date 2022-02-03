@@ -27,6 +27,8 @@ If you want to create a new page, look the [list of templates](template.md) if o
 
 Please try to be conservative with the amount (and size) of images used on this wiki. This wiki is currently hosted on github which is designed for text-based documents and not images.
 
+Wikipedia allows hotlinking to their images, as long as the particular image license allows it^[https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/technical#Hotlinking]. Please make sure to always include appropriate credits to the original author, even if not required by the license.
+
 For pages that require many, or high resolution images, consider hosting them on a reliable image host like [imgur](https://imgur.com/upload) for now.
 
 
