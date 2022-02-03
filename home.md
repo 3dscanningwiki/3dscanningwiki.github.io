@@ -41,6 +41,7 @@ This wiki has been setup by the [3D Scanning Discord](https://discord.gg/zF2WPwp
 * [SIFT](concept/SIFT.md) 
 * F.A.S.T 
 * [BRDF](concept/BRDF.md) 
+* [Mesh](concept/Mesh.md)
 * [Point Cloud](concept/Point_Cloud.md) 
 * [Geometry](concept/Geometry.md) 
 * [Ground Truth](concept/Ground_Truth.md) 
