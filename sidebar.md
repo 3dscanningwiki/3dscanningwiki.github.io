@@ -2,6 +2,7 @@
 <!-- All internal links in here must be absolute links, i.e. they must start with a "/" -->
 
 * [Home](/)
+* [All Pages](/pages)
 
 ----
 

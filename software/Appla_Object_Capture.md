@@ -2,6 +2,7 @@
 title: Apple Object Capture
 description: Template for pages about software solutions
 tags: [software, photogrammetry]
+wip: true
 ---
 
 # Apple Object Capture

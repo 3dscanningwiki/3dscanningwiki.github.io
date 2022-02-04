@@ -2,6 +2,7 @@
 title: Hardware Template
 description: Template for pages about hardware.
 tags: [meta, template, hardware]
+wip: true
 ---
 
 # Hardware Template

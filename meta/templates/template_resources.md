@@ -2,6 +2,7 @@
 title: Resource Template
 description: Template for the resource pages
 tags: [meta, template, resource]
+wip: true
 ---
 
 # Resources Template
