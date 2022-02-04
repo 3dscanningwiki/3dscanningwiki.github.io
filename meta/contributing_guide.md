@@ -23,6 +23,10 @@ For any changes to go live, they have to get *merged* into the repository. This 
 
 If you want to create a new page, look the [list of templates](template.md) if one of the templates matches the page topic.
 
+## Citations
+
+Be liberal with linking to resources in footnotes. If referring to a scientific paper try to find the Bibtex citation format and convert it to a text citation using the [Online Bibtex Converter](https://asouqi.github.io/bibtex-converter/). Usually such citations are best placed in an external footnote (see below).
+
 ## Images
 
 Please try to be conservative with the amount (and size) of images used on this wiki. This wiki is currently hosted on github which is designed for text-based documents and not images.
