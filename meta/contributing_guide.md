@@ -23,6 +23,21 @@ For any changes to go live, they have to get *merged* into the repository. This 
 
 If you want to create a new page, look the [list of templates](template.md) if one of the templates matches the page topic.
 
+## Frontmatter
+
+Every wiki page needs a frontmatter: a section at the top of the file, containing the title, a description and other metadata. The frontmatter has the following format:
+
+```yaml
+---
+title: Frontmatter example
+description: How to use the frontmatter tags on this wiki
+tags: [how-to, meta, frontmatter]
+published: true # default: true
+alias: [meta/contributing_guide]
+wip: false # default: false
+---
+```
+
 ## Citations
 
 Be liberal with linking to resources in footnotes. If referring to a scientific paper try to find the Bibtex citation format and convert it to a text citation using the [Online Bibtex Converter](https://asouqi.github.io/bibtex-converter/). Usually such citations are best placed in an external footnote (see below).
