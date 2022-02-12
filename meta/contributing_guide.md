@@ -79,6 +79,23 @@ Example text with an ^[Inline footnote] and an external footnote [^1].
 
 [^1]: like this.
 
+### Mathematical Expressions
+
+Mathematical expressions can be embedded in text as an inline formula in text ``$`e = m c^2`$`` or as a centered display formula:
+    
+    ```math
+
+    y_{n+1} = y_0 + \int_{x_0}^x F(t, y(t))dt
+
+    ```
+
+> Mathematical expressions can be embedded in text as an inline formula in text $`e = m c^2`$ or as a centered display formula 
+> ```math
+y_{n+1} = y_0 + \int_{x_0}^x F(t, y(t))dt
+```
+
+The expressions are rendered using [KaTex](https://katex.org/). [List of supported functions](https://katex.org/docs/supported.html).
+
 ## Special Pages
 
 Files in the github repository translate directly to pages of the wiki. This current page `/meta/contributing_guide.md` will be directly visible as `https://3dscanning.wiki/meta/contributing_guide`. There are however some special pages:
