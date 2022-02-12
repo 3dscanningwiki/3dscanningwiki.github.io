@@ -29,11 +29,11 @@ Every wiki page needs a frontmatter: a section at the top of the file, containin
 
 ```yaml
 ---
-title: Frontmatter example
-description: How to use the frontmatter tags on this wiki
-tags: [how-to, meta, frontmatter]
+title: Frontmatter example # Required
+description: How to use the frontmatter tags on this wiki # default: empty
+tags: [how-to, meta, frontmatter] # default: empty
 published: true # default: true
-alias: [meta/contributing_guide]
+alias: [meta/contributing_guide] # default: empty
 wip: false # default: false
 ---
 ```
@@ -69,7 +69,7 @@ Comments can be added to add notes visible only when editing the file, they will
 
 Footnote, citations and similar references can be added with the footnotes addon:
 
-```
+```md
 Example text with an ^[Inline footnote] and an external footnote [^1].
 
 [^1]: Like this.
@@ -84,14 +84,12 @@ Example text with an ^[Inline footnote] and an external footnote [^1].
 Mathematical expressions can be embedded in text as an inline formula in text ``$`e = m c^2`$`` or as a centered display formula:
     
     ```math
-
-    y_{n+1} = y_0 + \int_{x_0}^x F(t, y(t))dt
-
+      y_{n+1} = y_0 + \int_{x_0}^x F(t, y_n(t))dt
     ```
 
 > Mathematical expressions can be embedded in text as an inline formula in text $`e = m c^2`$ or as a centered display formula 
 > ```math
-y_{n+1} = y_0 + \int_{x_0}^x F(t, y(t))dt
+y_{n+1} = y_0 + \int_{x_0}^x F(t, y_n(t))dt
 ```
 
 The expressions are rendered using [KaTex](https://katex.org/). [List of supported functions](https://katex.org/docs/supported.html).
