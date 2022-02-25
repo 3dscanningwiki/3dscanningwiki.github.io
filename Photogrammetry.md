@@ -74,9 +74,12 @@ For the same reasons as mentioned in the depth of field section, it is preferabl
 
 <!-- Please link to any strong (generally unbiased) videos on the topic, if this gets too broad then please link to a sub page, ie "Photogrammetry_Resources" -->
 
-* Julia Haines. “Photogrammetry Workflow using a DSLR Camera”. Published September 24, 2019.
+* Julia Haines. "Photogrammetry Workflow using a DSLR Camera". Published September 24, 2019.
   Full photogrammetry workflow using [Agisoft Metashape](software/Agisoft_Metashape.md) ^[https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/]
-
+* Vlad Kuzmin. "Full Photogrammetry Guide for 3D Artists". Published March 05, 2018.
+  In debth photogrammetry guide using [Reality Capture](software/Reality_Capture.md) ^[https://80.lv/articles/full-photogrammetry-guide-for-3d-artists/]
+* Grzegorz Baran. "Photogrammetry Setup for Indoor 3D Prop Scanning". Published June 10, 2021.
+  Detailed workflow for turntable based prop scanning, including important theoretical knowledge. ^[https://www.youtube.com/watch?v=REA3XNgUMJg]
 
 
 ## See Also
