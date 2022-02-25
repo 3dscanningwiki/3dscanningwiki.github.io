@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="twitter:card" content="summary" />
+		<meta property="og:site_name" content="3D Scanning Wiki" />
+		<meta property="og:type" content="website" />
+		<script>
+			if (location.protocol !== 'https:' && !location.port) {
+				location.replace(`https:${location.href.substring(location.protocol.length)}`);
+			}
+		</script>
+		<meta http-equiv="content-security-policy" content=""><title>Photogrammetry - 3D Scanning Wiki</title><meta property="og:title" content="Photogrammetry - 3D Scanning Wiki" data-svelte="svelte-wnqy71"><meta property="og:description" content="Using Photographs to measure and extract information about a subject" data-svelte="svelte-wnqy71"><meta property="og:url" content="https://3dscanning.wiki/Photogrammetry" data-svelte="svelte-wnqy71"><meta property="og:title" content="Photogrammetry - 3D Scanning Wiki" data-svelte="svelte-wnqy71"><meta property="og:description" content="Using Photographs to measure and extract information about a subject" data-svelte="svelte-wnqy71"><meta property="og:url" content="https://3dscanning.wiki/Photogrammetry" data-svelte="svelte-wnqy71">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-9cae4fe6.css">
+	<link rel="stylesheet" href="/_app/assets/page.svelte_svelte_type_style_lang-7d09747e.css">
+	<link rel="modulepreload" href="/_app/start-5bb63c08.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-a7ef7336.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-2c7a0ab6.js">
+	<link rel="modulepreload" href="/_app/pages/_...slug_.svelte-0bfb93b2.js">
+	<link rel="modulepreload" href="/_app/chunks/page-ce206e19.js"><script type="module">
+		import { start } from "/_app/start-5bb63c08.js";
+		start({
+			target: document.querySelector("#svelte"),
+			paths: {"base":"","assets":""},
+			session: {},
+			route: false,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-2c7a0ab6.js"),
+						import("/_app/pages/_...slug_.svelte-0bfb93b2.js")
+				],
+				url: new URL("http://sveltekit-prerender/Photogrammetry"),
+				params: {slug:"Photogrammetry"}
+			}
+		});
+	</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<nav class="header"><span class="burger"><svg viewBox="0 0 100 60" width="25" height="25"><g style="fill:white"><rect width="100" height="11"></rect><rect y="30" width="100" height="11"></rect><rect y="60" width="100" height="11"></rect></g></svg></span>
+	<a class="title" href="/">3D Scanning Wiki</a>
+	<div class="search-wrap svelte-18gx25y"><input class="searchbar svelte-18gx25y" type="text" placeholder="Search" value="">
+	
+</div></nav>
+<div class="page"><nav class="sidebar"><!-- HTML_TAG_START --><p>
+</p>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/pages">All Pages</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="/Photogrammetry">Photogrammetry</a></li>
+<li><a href="/Lidar">Lidar / ToF</a></li>
+<li><a href="/Photometric_Stereo">Photometric Stereo</a></li>
+<li><a href="/Structured_Light">Structured Light</a></li>
+<li><a href="/Software">Software</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="/meta/contributing_guide">Contribute</a></li>
+<li><a href="https://github.com/3dscanningwiki/3dscanningwiki.github.io">GitHub</a></li>
+<li><a href="https://discord.gg/zF2WPwpgSw">Discord</a></li>
+</ul>
+<!-- HTML_TAG_END --></nav>
+	<div class="container">
+
+<main class="content"><div class="note">This page is still a work in progress, please help <a href="https://github.dev/3dscanningwiki/3dscanningwiki.github.io/blob/main/Photogrammetry.md">expand it</a>.
+		</div>
+	<!-- HTML_TAG_START -->
+<h1>Photogrammetry</h1>
+<p><strong>Photogrammetry</strong> is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns.</p>
+<p>Understanding how and why Photogrammetry is used, and where to use it is critical within the industry of digital acquisition.</p>
+<p>There are many variants of Photogrammetry, however this topic will limited to the the process of extracting useful data from images, with the end goal of producing 3 Dimensional measurements either for the further use in real time rendering, manufacturing, inspection and survey.</p>
+<h2>Methods</h2>
+<p>Typical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which processes them to extract info about the photographed objects.</p>
+<p></p>
+<p></p>
+<h2>Applications</h2>
+<h2>Software</h2>
+<p>See the Photogrammetry section on the <a href="Software">Software</a> page.</p>
+<h2>Hardware</h2>
+<p>Photogrammetry hardware is a broad topic, however here it is broken down into two sub-categories, Acquisition and Processing</p>
+<h3>Data Acquisition</h3>
+<p>As a rule of thumb, best tool for capturing images is the camera you have on you at the time, however when it comes to acquiring the best data there are several key factors to consider:</p>
+<ul>
+<li>Lighting</li>
+<li>Depth of field</li>
+<li>Shutter speed</li>
+<li>ISO</li>
+<li>Sharpness</li>
+</ul>
+<h4>Lighting</h4>
+<p>In general it is preferred to have even diffuse lighting from all sides, and no visible shadows or highlights on the object itself. Moving shadows can be interpreted by the photogrammetry software as a feature point, which can negatively impact the resulting geometry. Fixed shadows will most likely not impact geometry too much, but it will be visible in the texture as baked in lighting, which will look bad if the object is rendered in a scene where the lighting does not match the condition where the object was scanned.</p>
+<p>The easiest way to achieve a very diffuse light is to wait for a overcast day and scan the object outdoors.</p>
+<p>Other options include big soft-boxes and photography tents.</p>
+<p>Most professional 3d scanners use a ring flash light around the camera lense. This way the visible part of the object is fully illuminated, and no shadows are ever visible to the camera.</p>
+<h4>Depth of field</h4>
+<p>Photogrammetry software searches for feature points in the images, which it can match with the same point in as many images as possible. These feature points need to have a high contrast and be as sharp as possible. Therefore the images need to have as much in focus as possible. It is generally recommended to use an aperture with f8 to f11 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
+<h4>Shutter speed</h4>
+<p>When scanning an object handheld, it is important to use a fast shutter speed, as motion blur will make finding the feature points more difficult or even impossible. In general it is recommended to keep the shutter speed as high as possible, although when using a tripod with an external shutter release the shutter speed can be decreased to allow for a lower ISO or smaller aperture.</p>
+<h4>ISO</h4>
+<p>The ISO setting of a digital camera determines how sensitive the camera sensor is to light. A higher ISO setting results in a brighter image. As a side effect, a high sensitivity also means the sensor will pick up more noise. To get the best results, it is preferable to keep the ISO as low (close to ISO 100) as possible. Depending on the sensor higher values are tolerable.</p>
+<h4>Sharpness</h4>
+<p>For the same reasons as mentioned in the depth of field section, it is preferable to capture as sharp images as possible. Generally the sharpness depends on the camera lense. For most lenses there exists some documentation on their sharpness and what lense settings (zoom, aperture) result in the sharpest image.</p>
+<h3>Processing</h3>
+<h2>Resources</h2>
+<p></p>
+<ul>
+<li>Julia Haines. &quot;Photogrammetry Workflow using a DSLR Camera&quot;. Published September 24, 2019.
+Full photogrammetry workflow using <a href="software/Agisoft_Metashape">Agisoft Metashape</a> <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></li>
+<li>Vlad Kuzmin. &quot;Full Photogrammetry Guide for 3D Artists&quot;. Published March 05, 2018.
+In debth photogrammetry guide using <a href="software/Reality_Capture">Reality Capture</a> <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></li>
+<li>Grzegorz Baran. &quot;Photogrammetry Setup for Indoor 3D Prop Scanning&quot;. Published June 10, 2021.
+Detailed workflow for turntable based prop scanning, including important theoretical knowledge. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></li>
+</ul>
+<h2>See Also</h2>
+<p>Is the subject similar to another, but not linked directly in this page?
+Please link to any other topics that may be similar that people would want to read more on</p>
+<h2>References</h2>
+<p>Any references made in this can be cited here and linked.
+We do not mind links to blogs or youtube videos, as a lot of topics in this field are uncovered by trial and error, so we can expect a lot of community sourced information to come in this form.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/">https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/">https://scholarslab.lib.virginia.edu/blog/documentation-photogrammetry/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://80.lv/articles/full-photogrammetry-guide-for-3d-artists/">https://80.lv/articles/full-photogrammetry-guide-for-3d-artists/</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=REA3XNgUMJg">https://www.youtube.com/watch?v=REA3XNgUMJg</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+<!-- HTML_TAG_END -->
+	<hr>
+	<a class="edit-link" href="https://github.dev/3dscanningwiki/3dscanningwiki.github.io/blob/main/Photogrammetry.md" target="_blank">Edit this page</a>
+	<a class="edit-link" href="https://github.com/3dscanningwiki/3dscanningwiki.github.io/blob/main/Photogrammetry.md" target="_blank">Visit this page on GitHub</a></main>
+
+</div>
+</div>
+
+<script type="application/json" data-type="svelte-data" data-url="/api/sidebar.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"id\":26,\"slug\":\"sidebar\",\"text\":\" Home All Pages Photogrammetry Lidar \u002F ToF Photometric Stereo Structured Light Software Contribute GitHub Discord \",\"html\":\"\u003Cp\u003E\\n\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002F\\\"\u003EHome\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002Fpages\\\"\u003EAll Pages\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Chr\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FPhotogrammetry\\\"\u003EPhotogrammetry\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FLidar\\\"\u003ELidar \u002F ToF\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FPhotometric_Stereo\\\"\u003EPhotometric Stereo\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FStructured_Light\\\"\u003EStructured Light\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FSoftware\\\"\u003ESoftware\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Chr\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002Fmeta\u002Fcontributing_guide\\\"\u003EContribute\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002F3dscanningwiki\u002F3dscanningwiki.github.io\\\"\u003EGitHub\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fdiscord.gg\u002FzF2WPwpgSw\\\"\u003EDiscord\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\"}"}</script>
+
+	<script type="application/json" data-type="svelte-data" data-url="/api/Photogrammetry.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"id\":1,\"metadata\":{\"title\":\"Photogrammetry\",\"description\":\"Using Photographs to measure and extract information about a subject\",\"tags\":[\"overview\",\"photogrammetry\"],\"wip\":true},\"slug\":\"Photogrammetry\",\"text\":\"Photogrammetry Photogrammetry is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns. Understanding how and why Photogrammetry is used, and where to use it is critical within the industry of digital acquisition. There are many variants of Photogrammetry, however this topic will limited to the the process of extracting useful data from images, with the end goal of producing 3 Dimensional measurements either for the further use in real time rendering, manufacturing, inspection and survey. Methods Typical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which processes them to extract info about the photographed objects. Applications Software See the Photogrammetry section on the Software page. Hardware Photogrammetry hardware is a broad topic, however here it is broken down into two sub-categories, Acquisition and Processing Data Acquisition As a rule of thumb, best tool for capturing images is the camera you have on you at the time, however when it comes to acquiring the best data there are several key factors to consider: Lighting Depth of field Shutter speed ISO Sharpness Lighting In general it is preferred to have even diffuse lighting from all sides, and no visible shadows or highlights on the object itself. Moving shadows can be interpreted by the photogrammetry software as a feature point, which can negatively impact the resulting geometry. Fixed shadows will most likely not impact geometry too much, but it will be visible in the texture as baked in lighting, which will look bad if the object is rendered in a scene where the lighting does not match the condition where the object was scanned. The easiest way to achieve a very diffuse light is to wait for a overcast day and scan the object outdoors. Other options include big soft-boxes and photography tents. Most professional 3d scanners use a ring flash light around the camera lense. This way the visible part of the object is fully illuminated, and no shadows are ever visible to the camera. Depth of field Photogrammetry software searches for feature points in the images, which it can match with the same point in as many images as possible. These feature points need to have a high contrast and be as sharp as possible. Therefore the images need to have as much in focus as possible. It is generally recommended to use an aperture with f8 to f11 . Shutter speed When scanning an object handheld, it is important to use a fast shutter speed, as motion blur will make finding the feature points more difficult or even impossible. In general it is recommended to keep the shutter speed as high as possible, although when using a tripod with an external shutter release the shutter speed can be decreased to allow for a lower ISO or smaller aperture. ISO The ISO setting of a digital camera determines how sensitive the camera sensor is to light. A higher ISO setting results in a brighter image. As a side effect, a high sensitivity also means the sensor will pick up more noise. To get the best results, it is preferable to keep the ISO as low (close to ISO 100) as possible. Depending on the sensor higher values are tolerable. Sharpness For the same reasons as mentioned in the depth of field section, it is preferable to capture as sharp images as possible. Generally the sharpness depends on the camera lense. For most lenses there exists some documentation on their sharpness and what lense settings (zoom, aperture) result in the sharpest image. Processing Resources Julia Haines. \\\"Photogrammetry Workflow using a DSLR Camera\\\". Published September 24, 2019.Full photogrammetry workflow using Agisoft Metashape Vlad Kuzmin. \\\"Full Photogrammetry Guide for 3D Artists\\\". Published March 05, 2018.In debth photogrammetry guide using Reality Capture Grzegorz Baran. \\\"Photogrammetry Setup for Indoor 3D Prop Scanning\\\". Published June 10, 2021.Detailed workflow for turntable based prop scanning, including important theoretical knowledge. See Also Is the subject similar to another, but not linked directly in this page?Please link to any other topics that may be similar that people would want to read more on References Any references made in this can be cited here and linked.We do not mind links to blogs or youtube videos, as a lot of topics in this field are uncovered by trial and error, so we can expect a lot of community sourced information to come in this form. https:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F https:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F https:\u002F\u002F80.lv\u002Farticles\u002Ffull-photogrammetry-guide-for-3d-artists\u002F https:\u002F\u002Fwww.youtube.com\u002Fwatch?v=REA3XNgUMJg \",\"html\":\"\\n\u003Ch1\u003EPhotogrammetry\u003C\u002Fh1\u003E\\n\u003Cp\u003E\u003Cstrong\u003EPhotogrammetry\u003C\u002Fstrong\u003E is the science and technology of obtaining reliable information about physical objects and the environment through the process of recording, measuring and interpreting photographic images and patterns.\u003C\u002Fp\u003E\\n\u003Cp\u003EUnderstanding how and why Photogrammetry is used, and where to use it is critical within the industry of digital acquisition.\u003C\u002Fp\u003E\\n\u003Cp\u003EThere are many variants of Photogrammetry, however this topic will limited to the the process of extracting useful data from images, with the end goal of producing 3 Dimensional measurements either for the further use in real time rendering, manufacturing, inspection and survey.\u003C\u002Fp\u003E\\n\u003Ch2\u003EMethods\u003C\u002Fh2\u003E\\n\u003Cp\u003ETypical photogrammetry is seen as the process of taking many images of a surface or object. These images are fed into a photogrammetry software which processes them to extract info about the photographed objects.\u003C\u002Fp\u003E\\n\u003Cp\u003E\u003C\u002Fp\u003E\\n\u003Cp\u003E\u003C\u002Fp\u003E\\n\u003Ch2\u003EApplications\u003C\u002Fh2\u003E\\n\u003Ch2\u003ESoftware\u003C\u002Fh2\u003E\\n\u003Cp\u003ESee the Photogrammetry section on the \u003Ca href=\\\"Software\\\"\u003ESoftware\u003C\u002Fa\u003E page.\u003C\u002Fp\u003E\\n\u003Ch2\u003EHardware\u003C\u002Fh2\u003E\\n\u003Cp\u003EPhotogrammetry hardware is a broad topic, however here it is broken down into two sub-categories, Acquisition and Processing\u003C\u002Fp\u003E\\n\u003Ch3\u003EData Acquisition\u003C\u002Fh3\u003E\\n\u003Cp\u003EAs a rule of thumb, best tool for capturing images is the camera you have on you at the time, however when it comes to acquiring the best data there are several key factors to consider:\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003ELighting\u003C\u002Fli\u003E\\n\u003Cli\u003EDepth of field\u003C\u002Fli\u003E\\n\u003Cli\u003EShutter speed\u003C\u002Fli\u003E\\n\u003Cli\u003EISO\u003C\u002Fli\u003E\\n\u003Cli\u003ESharpness\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch4\u003ELighting\u003C\u002Fh4\u003E\\n\u003Cp\u003EIn general it is preferred to have even diffuse lighting from all sides, and no visible shadows or highlights on the object itself. Moving shadows can be interpreted by the photogrammetry software as a feature point, which can negatively impact the resulting geometry. Fixed shadows will most likely not impact geometry too much, but it will be visible in the texture as baked in lighting, which will look bad if the object is rendered in a scene where the lighting does not match the condition where the object was scanned.\u003C\u002Fp\u003E\\n\u003Cp\u003EThe easiest way to achieve a very diffuse light is to wait for a overcast day and scan the object outdoors.\u003C\u002Fp\u003E\\n\u003Cp\u003EOther options include big soft-boxes and photography tents.\u003C\u002Fp\u003E\\n\u003Cp\u003EMost professional 3d scanners use a ring flash light around the camera lense. This way the visible part of the object is fully illuminated, and no shadows are ever visible to the camera.\u003C\u002Fp\u003E\\n\u003Ch4\u003EDepth of field\u003C\u002Fh4\u003E\\n\u003Cp\u003EPhotogrammetry software searches for feature points in the images, which it can match with the same point in as many images as possible. These feature points need to have a high contrast and be as sharp as possible. Therefore the images need to have as much in focus as possible. It is generally recommended to use an aperture with f8 to f11 \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn1\\\" id=\\\"fnref1\\\"\u003E[1]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E.\u003C\u002Fp\u003E\\n\u003Ch4\u003EShutter speed\u003C\u002Fh4\u003E\\n\u003Cp\u003EWhen scanning an object handheld, it is important to use a fast shutter speed, as motion blur will make finding the feature points more difficult or even impossible. In general it is recommended to keep the shutter speed as high as possible, although when using a tripod with an external shutter release the shutter speed can be decreased to allow for a lower ISO or smaller aperture.\u003C\u002Fp\u003E\\n\u003Ch4\u003EISO\u003C\u002Fh4\u003E\\n\u003Cp\u003EThe ISO setting of a digital camera determines how sensitive the camera sensor is to light. A higher ISO setting results in a brighter image. As a side effect, a high sensitivity also means the sensor will pick up more noise. To get the best results, it is preferable to keep the ISO as low (close to ISO 100) as possible. Depending on the sensor higher values are tolerable.\u003C\u002Fp\u003E\\n\u003Ch4\u003ESharpness\u003C\u002Fh4\u003E\\n\u003Cp\u003EFor the same reasons as mentioned in the depth of field section, it is preferable to capture as sharp images as possible. Generally the sharpness depends on the camera lense. For most lenses there exists some documentation on their sharpness and what lense settings (zoom, aperture) result in the sharpest image.\u003C\u002Fp\u003E\\n\u003Ch3\u003EProcessing\u003C\u002Fh3\u003E\\n\u003Ch2\u003EResources\u003C\u002Fh2\u003E\\n\u003Cp\u003E\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003EJulia Haines. &quot;Photogrammetry Workflow using a DSLR Camera&quot;. Published September 24, 2019.\\nFull photogrammetry workflow using \u003Ca href=\\\"software\u002FAgisoft_Metashape\\\"\u003EAgisoft Metashape\u003C\u002Fa\u003E \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn2\\\" id=\\\"fnref2\\\"\u003E[2]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003EVlad Kuzmin. &quot;Full Photogrammetry Guide for 3D Artists&quot;. Published March 05, 2018.\\nIn debth photogrammetry guide using \u003Ca href=\\\"software\u002FReality_Capture\\\"\u003EReality Capture\u003C\u002Fa\u003E \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn3\\\" id=\\\"fnref3\\\"\u003E[3]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003EGrzegorz Baran. &quot;Photogrammetry Setup for Indoor 3D Prop Scanning&quot;. Published June 10, 2021.\\nDetailed workflow for turntable based prop scanning, including important theoretical knowledge. \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn4\\\" id=\\\"fnref4\\\"\u003E[4]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2\u003ESee Also\u003C\u002Fh2\u003E\\n\u003Cp\u003EIs the subject similar to another, but not linked directly in this page?\\nPlease link to any other topics that may be similar that people would want to read more on\u003C\u002Fp\u003E\\n\u003Ch2\u003EReferences\u003C\u002Fh2\u003E\\n\u003Cp\u003EAny references made in this can be cited here and linked.\\nWe do not mind links to blogs or youtube videos, as a lot of topics in this field are uncovered by trial and error, so we can expect a lot of community sourced information to come in this form.\u003C\u002Fp\u003E\\n\u003Chr class=\\\"footnotes-sep\\\"\u003E\\n\u003Csection class=\\\"footnotes\\\"\u003E\\n\u003Col class=\\\"footnotes-list\\\"\u003E\\n\u003Cli id=\\\"fn1\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F\\\"\u003Ehttps:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref1\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn2\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F\\\"\u003Ehttps:\u002F\u002Fscholarslab.lib.virginia.edu\u002Fblog\u002Fdocumentation-photogrammetry\u002F\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref2\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn3\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002F80.lv\u002Farticles\u002Ffull-photogrammetry-guide-for-3d-artists\u002F\\\"\u003Ehttps:\u002F\u002F80.lv\u002Farticles\u002Ffull-photogrammetry-guide-for-3d-artists\u002F\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref3\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn4\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fwww.youtube.com\u002Fwatch?v=REA3XNgUMJg\\\"\u003Ehttps:\u002F\u002Fwww.youtube.com\u002Fwatch?v=REA3XNgUMJg\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref4\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003C\u002Fol\u003E\\n\u003C\u002Fsection\u003E\\n\"}"}</script></div>
+	</body>
+</html>

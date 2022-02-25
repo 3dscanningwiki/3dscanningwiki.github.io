@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="twitter:card" content="summary" />
+		<meta property="og:site_name" content="3D Scanning Wiki" />
+		<meta property="og:type" content="website" />
+		<script>
+			if (location.protocol !== 'https:' && !location.port) {
+				location.replace(`https:${location.href.substring(location.protocol.length)}`);
+			}
+		</script>
+		<meta http-equiv="content-security-policy" content=""><title>Coded Marker - 3D Scanning Wiki</title><meta property="og:title" content="Coded Marker - 3D Scanning Wiki" data-svelte="svelte-wnqy71"><meta property="og:description" content="Coded Marker" data-svelte="svelte-wnqy71"><meta property="og:url" content="https://3dscanning.wiki/concept/Coded_Marker" data-svelte="svelte-wnqy71"><meta property="og:title" content="Coded Marker - 3D Scanning Wiki" data-svelte="svelte-wnqy71"><meta property="og:description" content="Coded Marker" data-svelte="svelte-wnqy71"><meta property="og:url" content="https://3dscanning.wiki/concept/Coded_Marker" data-svelte="svelte-wnqy71">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-9cae4fe6.css">
+	<link rel="stylesheet" href="/_app/assets/page.svelte_svelte_type_style_lang-7d09747e.css">
+	<link rel="modulepreload" href="/_app/start-5bb63c08.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-a7ef7336.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-2c7a0ab6.js">
+	<link rel="modulepreload" href="/_app/pages/_...slug_.svelte-0bfb93b2.js">
+	<link rel="modulepreload" href="/_app/chunks/page-ce206e19.js"><script type="module">
+		import { start } from "/_app/start-5bb63c08.js";
+		start({
+			target: document.querySelector("#svelte"),
+			paths: {"base":"","assets":""},
+			session: {},
+			route: false,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-2c7a0ab6.js"),
+						import("/_app/pages/_...slug_.svelte-0bfb93b2.js")
+				],
+				url: new URL("http://sveltekit-prerender/concept/Coded_Marker"),
+				params: {slug:"concept\u002FCoded_Marker"}
+			}
+		});
+	</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<nav class="header"><span class="burger"><svg viewBox="0 0 100 60" width="25" height="25"><g style="fill:white"><rect width="100" height="11"></rect><rect y="30" width="100" height="11"></rect><rect y="60" width="100" height="11"></rect></g></svg></span>
+	<a class="title" href="/">3D Scanning Wiki</a>
+	<div class="search-wrap svelte-18gx25y"><input class="searchbar svelte-18gx25y" type="text" placeholder="Search" value="">
+	
+</div></nav>
+<div class="page"><nav class="sidebar"><!-- HTML_TAG_START --><p>
+</p>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/pages">All Pages</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="/Photogrammetry">Photogrammetry</a></li>
+<li><a href="/Lidar">Lidar / ToF</a></li>
+<li><a href="/Photometric_Stereo">Photometric Stereo</a></li>
+<li><a href="/Structured_Light">Structured Light</a></li>
+<li><a href="/Software">Software</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="/meta/contributing_guide">Contribute</a></li>
+<li><a href="https://github.com/3dscanningwiki/3dscanningwiki.github.io">GitHub</a></li>
+<li><a href="https://discord.gg/zF2WPwpgSw">Discord</a></li>
+</ul>
+<!-- HTML_TAG_END --></nav>
+	<div class="container">
+
+<main class="content">
+	<!-- HTML_TAG_START -->
+<h1>Coded Marker</h1>
+<p>Coded markers are a usually unique black and white marker which get picked up by software. They are placed in the scene before scanning an object, and are automatically detected when processing the images. Due to the uniqueness of each marker, the software can distinguish them. They can act as a scale reference when the distance between at least 2 markers is known, or just help with aligning the pictures due to their high contrast.
+Multiple types of coded markers exist, and many software packages have support for multiple.</p>
+<p><img src="https://i.imgur.com/DPsH7wH.png" alt="Types of markers: a) Circular, b) April Tags, c) non-coded markers"></p>
+<ul>
+<li>a) Circular Markers</li>
+<li>b) April Tags</li>
+<li>c) Non coded markers</li>
+</ul>
+<h2>Circular Markers</h2>
+<p>Circular markers usually consist of an inner circle with a small white dot, and of the coded outer circle. The center white dot has the advantage that in case the software does not pick the marker up automatically, a human can easily mark the center of the tag manually.</p>
+<table>
+<thead>
+<tr>
+<th>Software</th>
+<th>Compatible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3DF Zephyr</td>
+<td>No <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></td>
+</tr>
+<tr>
+<td>Agisoft Metashape</td>
+<td>Yes (pro only) <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></td>
+</tr>
+<tr>
+<td>Apple Object Capture</td>
+<td>No [?]</td>
+</tr>
+<tr>
+<td>Reality Capture</td>
+<td>Yes <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></td>
+</tr>
+</tbody>
+</table>
+<h2>April Tags</h2>
+<p>April tags were first introduced by Edwin Olson in 2011 as a robust and flexible fiducial system for usage in autonomous robots <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>. They are designed similar to <a href="https://de.wikipedia.org/wiki/QR-Code">QR-codes</a> to be recognized by software, which makes them optimal for use in photogrammetry as well. Most photogrammetry software that supports coded markers supports some of the versions of april tags as well.</p>
+<p>Like QR-codes, april tags consist of a grid of black and white cells, composing a tow-dimensional bar code. However, they are designed for a much smaller data size between 4 to 12 bits. This allows them to be detectable and decodable under much worse circumstances.</p>
+<table>
+<thead>
+<tr>
+<th>Software</th>
+<th>Compatible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3DF Zephyr</td>
+<td>Yes <sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></td>
+</tr>
+<tr>
+<td>Agisoft Metashape</td>
+<td>Yes (pro only) <sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup></td>
+</tr>
+<tr>
+<td>Apple Object Capture</td>
+<td>No [?]</td>
+</tr>
+<tr>
+<td>Reality Capture</td>
+<td>Yes <sup class="footnote-ref"><a href="#fn3" id="fnref3:1">[3:1]</a></sup></td>
+</tr>
+</tbody>
+</table>
+<h3>April Tag Variants</h3>
+<p>There are multiple generations of april tags, with the newest being AprilTag 3 (in review) and the most used being AprilTag 2<sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup>. AprilTags come in multiple payload capacity and error correction versions. They are usually denoted with a name in the following format: <code>36h11</code>, where 36 refers to a 36 bit encoding, and the 11 refers to a minimum Hamming distance <sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup> of 11 bits between any valid tags. In short, increasing the first number leads to bigger tags and more possible unique tags. Increasing the second number decreases the number of false positives that are picked up by the software, but also reduces the amount of possible unique tags. AprilTags are designed to work with low resolution images, where the likelihood of noise resembling a valid tag is extremely small. For high resolution images as is commonly used in photogrammetry, it is recommended to use a tag with a high Hamming distance, such as the previously named <code>36h11</code>.</p>
+<h2>Non-coded markers</h2>
+<p>Markers that do not include any kind of code usually provide a hight contrast features for photogrammetry software to recognize. In addition they make it easier for humans to manually find the same points in multiple pictures for manual control points.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.3dflow.net/zephyr-doc/en/PrintMarkersandmarkersuse.html">https://www.3dflow.net/zephyr-doc/en/PrintMarkersandmarkersuse.html</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf">https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf</a> <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://support.capturingreality.com/hc/en-us/articles/360003869672-How-to-use-Detect-Markers-Tool">https://support.capturingreality.com/hc/en-us/articles/360003869672-How-to-use-Detect-Markers-Tool</a> <a href="#fnref3" class="footnote-backref">↩︎</a> <a href="#fnref3:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>Olson, E. (2011). <em>AprilTag: A robust and flexible visual fiducial system</em>. Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 3400–3407. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/coded-targets-automatic-detection/">https://www.3dflow.net/technology/documents/3df-zephyr-tutorials/coded-targets-automatic-detection/</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p>Wang, J., &amp; Olson, E. (2016, October). <em>AprilTag 2: Efficient and robust fiducial detection</em>. Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://en.wikipedia.org/wiki/Hamming_distance">https://en.wikipedia.org/wiki/Hamming_distance</a> <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+<!-- HTML_TAG_END -->
+	<hr>
+	<a class="edit-link" href="https://github.dev/3dscanningwiki/3dscanningwiki.github.io/blob/main/concept/Coded_Marker.md" target="_blank">Edit this page</a>
+	<a class="edit-link" href="https://github.com/3dscanningwiki/3dscanningwiki.github.io/blob/main/concept/Coded_Marker.md" target="_blank">Visit this page on GitHub</a></main>
+
+</div>
+</div>
+
+<script type="application/json" data-type="svelte-data" data-url="/api/sidebar.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"id\":26,\"slug\":\"sidebar\",\"text\":\" Home All Pages Photogrammetry Lidar \u002F ToF Photometric Stereo Structured Light Software Contribute GitHub Discord \",\"html\":\"\u003Cp\u003E\\n\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002F\\\"\u003EHome\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002Fpages\\\"\u003EAll Pages\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Chr\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FPhotogrammetry\\\"\u003EPhotogrammetry\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FLidar\\\"\u003ELidar \u002F ToF\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FPhotometric_Stereo\\\"\u003EPhotometric Stereo\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FStructured_Light\\\"\u003EStructured Light\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002FSoftware\\\"\u003ESoftware\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Chr\u003E\\n\u003Cul\u003E\\n\u003Cli\u003E\u003Ca href=\\\"\u002Fmeta\u002Fcontributing_guide\\\"\u003EContribute\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fgithub.com\u002F3dscanningwiki\u002F3dscanningwiki.github.io\\\"\u003EGitHub\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003Cli\u003E\u003Ca href=\\\"https:\u002F\u002Fdiscord.gg\u002FzF2WPwpgSw\\\"\u003EDiscord\u003C\u002Fa\u003E\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\"}"}</script>
+
+	<script type="application/json" data-type="svelte-data" data-url="/api/concept/Coded_Marker.json">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"id\":6,\"metadata\":{\"title\":\"Coded Marker\",\"description\":null,\"tags\":[\"concept\"]},\"slug\":\"concept\u002FCoded_Marker\",\"text\":\"Coded Marker Coded markers are a usually unique black and white marker which get picked up by software. They are placed in the scene before scanning an object, and are automatically detected when processing the images. Due to the uniqueness of each marker, the software can distinguish them. They can act as a scale reference when the distance between at least 2 markers is known, or just help with aligning the pictures due to their high contrast.Multiple types of coded markers exist, and many software packages have support for multiple. Types of markers: a) Circular, b) April Tags, c) non-coded markers a) Circular Markers b) April Tags c) Non coded markers Circular Markers Circular markers usually consist of an inner circle with a small white dot, and of the coded outer circle. The center white dot has the advantage that in case the software does not pick the marker up automatically, a human can easily mark the center of the tag manually. Software Compatible 3DF Zephyr No Agisoft Metashape Yes (pro only) Apple Object Capture No [?] Reality Capture Yes April Tags April tags were first introduced by Edwin Olson in 2011 as a robust and flexible fiducial system for usage in autonomous robots . They are designed similar to QR-codes to be recognized by software, which makes them optimal for use in photogrammetry as well. Most photogrammetry software that supports coded markers supports some of the versions of april tags as well. Like QR-codes, april tags consist of a grid of black and white cells, composing a tow-dimensional bar code. However, they are designed for a much smaller data size between 4 to 12 bits. This allows them to be detectable and decodable under much worse circumstances. Software Compatible 3DF Zephyr Yes Agisoft Metashape Yes (pro only) Apple Object Capture No [?] Reality Capture Yes April Tag Variants There are multiple generations of april tags, with the newest being AprilTag 3 (in review) and the most used being AprilTag 2. AprilTags come in multiple payload capacity and error correction versions. They are usually denoted with a name in the following format: 36h11, where 36 refers to a 36 bit encoding, and the 11 refers to a minimum Hamming distance of 11 bits between any valid tags. In short, increasing the first number leads to bigger tags and more possible unique tags. Increasing the second number decreases the number of false positives that are picked up by the software, but also reduces the amount of possible unique tags. AprilTags are designed to work with low resolution images, where the likelihood of noise resembling a valid tag is extremely small. For high resolution images as is commonly used in photogrammetry, it is recommended to use a tag with a high Hamming distance, such as the previously named 36h11. Non-coded markers Markers that do not include any kind of code usually provide a hight contrast features for photogrammetry software to recognize. In addition they make it easier for humans to manually find the same points in multiple pictures for manual control points. https:\u002F\u002Fwww.3dflow.net\u002Fzephyr-doc\u002Fen\u002FPrintMarkersandmarkersuse.html https:\u002F\u002Fwww.agisoft.com\u002Fpdf\u002Fmetashape-pro_1_8_en.pdf https:\u002F\u002Fsupport.capturingreality.com\u002Fhc\u002Fen-us\u002Farticles\u002F360003869672-How-to-use-Detect-Markers-Tool Olson, E. (2011). AprilTag: A robust and flexible visual fiducial system . Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 3400–3407. https:\u002F\u002Fwww.3dflow.net\u002Ftechnology\u002Fdocuments\u002F3df-zephyr-tutorials\u002Fcoded-targets-automatic-detection\u002F Wang, J., & Olson, E. (2016, October). AprilTag 2: Efficient and robust fiducial detection . Proceedings of the IEEE\u002FRSJ International Conference on Intelligent Robots and Systems (IROS). https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FHamming_distance \",\"html\":\"\\n\u003Ch1\u003ECoded Marker\u003C\u002Fh1\u003E\\n\u003Cp\u003ECoded markers are a usually unique black and white marker which get picked up by software. They are placed in the scene before scanning an object, and are automatically detected when processing the images. Due to the uniqueness of each marker, the software can distinguish them. They can act as a scale reference when the distance between at least 2 markers is known, or just help with aligning the pictures due to their high contrast.\\nMultiple types of coded markers exist, and many software packages have support for multiple.\u003C\u002Fp\u003E\\n\u003Cp\u003E\u003Cimg src=\\\"https:\u002F\u002Fi.imgur.com\u002FDPsH7wH.png\\\" alt=\\\"Types of markers: a) Circular, b) April Tags, c) non-coded markers\\\"\u003E\u003C\u002Fp\u003E\\n\u003Cul\u003E\\n\u003Cli\u003Ea) Circular Markers\u003C\u002Fli\u003E\\n\u003Cli\u003Eb) April Tags\u003C\u002Fli\u003E\\n\u003Cli\u003Ec) Non coded markers\u003C\u002Fli\u003E\\n\u003C\u002Ful\u003E\\n\u003Ch2\u003ECircular Markers\u003C\u002Fh2\u003E\\n\u003Cp\u003ECircular markers usually consist of an inner circle with a small white dot, and of the coded outer circle. The center white dot has the advantage that in case the software does not pick the marker up automatically, a human can easily mark the center of the tag manually.\u003C\u002Fp\u003E\\n\u003Ctable\u003E\\n\u003Cthead\u003E\\n\u003Ctr\u003E\\n\u003Cth\u003ESoftware\u003C\u002Fth\u003E\\n\u003Cth\u003ECompatible\u003C\u002Fth\u003E\\n\u003C\u002Ftr\u003E\\n\u003C\u002Fthead\u003E\\n\u003Ctbody\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003E3DF Zephyr\u003C\u002Ftd\u003E\\n\u003Ctd\u003ENo \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn1\\\" id=\\\"fnref1\\\"\u003E[1]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EAgisoft Metashape\u003C\u002Ftd\u003E\\n\u003Ctd\u003EYes (pro only) \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn2\\\" id=\\\"fnref2\\\"\u003E[2]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EApple Object Capture\u003C\u002Ftd\u003E\\n\u003Ctd\u003ENo [?]\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EReality Capture\u003C\u002Ftd\u003E\\n\u003Ctd\u003EYes \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn3\\\" id=\\\"fnref3\\\"\u003E[3]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003C\u002Ftbody\u003E\\n\u003C\u002Ftable\u003E\\n\u003Ch2\u003EApril Tags\u003C\u002Fh2\u003E\\n\u003Cp\u003EApril tags were first introduced by Edwin Olson in 2011 as a robust and flexible fiducial system for usage in autonomous robots \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn4\\\" id=\\\"fnref4\\\"\u003E[4]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E. They are designed similar to \u003Ca href=\\\"https:\u002F\u002Fde.wikipedia.org\u002Fwiki\u002FQR-Code\\\"\u003EQR-codes\u003C\u002Fa\u003E to be recognized by software, which makes them optimal for use in photogrammetry as well. Most photogrammetry software that supports coded markers supports some of the versions of april tags as well.\u003C\u002Fp\u003E\\n\u003Cp\u003ELike QR-codes, april tags consist of a grid of black and white cells, composing a tow-dimensional bar code. However, they are designed for a much smaller data size between 4 to 12 bits. This allows them to be detectable and decodable under much worse circumstances.\u003C\u002Fp\u003E\\n\u003Ctable\u003E\\n\u003Cthead\u003E\\n\u003Ctr\u003E\\n\u003Cth\u003ESoftware\u003C\u002Fth\u003E\\n\u003Cth\u003ECompatible\u003C\u002Fth\u003E\\n\u003C\u002Ftr\u003E\\n\u003C\u002Fthead\u003E\\n\u003Ctbody\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003E3DF Zephyr\u003C\u002Ftd\u003E\\n\u003Ctd\u003EYes \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn5\\\" id=\\\"fnref5\\\"\u003E[5]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EAgisoft Metashape\u003C\u002Ftd\u003E\\n\u003Ctd\u003EYes (pro only) \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn2\\\" id=\\\"fnref2:1\\\"\u003E[2:1]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EApple Object Capture\u003C\u002Ftd\u003E\\n\u003Ctd\u003ENo [?]\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003Ctr\u003E\\n\u003Ctd\u003EReality Capture\u003C\u002Ftd\u003E\\n\u003Ctd\u003EYes \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn3\\\" id=\\\"fnref3:1\\\"\u003E[3:1]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E\u003C\u002Ftd\u003E\\n\u003C\u002Ftr\u003E\\n\u003C\u002Ftbody\u003E\\n\u003C\u002Ftable\u003E\\n\u003Ch3\u003EApril Tag Variants\u003C\u002Fh3\u003E\\n\u003Cp\u003EThere are multiple generations of april tags, with the newest being AprilTag 3 (in review) and the most used being AprilTag 2\u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn6\\\" id=\\\"fnref6\\\"\u003E[6]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E. AprilTags come in multiple payload capacity and error correction versions. They are usually denoted with a name in the following format: \u003Ccode\u003E36h11\u003C\u002Fcode\u003E, where 36 refers to a 36 bit encoding, and the 11 refers to a minimum Hamming distance \u003Csup class=\\\"footnote-ref\\\"\u003E\u003Ca href=\\\"#fn7\\\" id=\\\"fnref7\\\"\u003E[7]\u003C\u002Fa\u003E\u003C\u002Fsup\u003E of 11 bits between any valid tags. In short, increasing the first number leads to bigger tags and more possible unique tags. Increasing the second number decreases the number of false positives that are picked up by the software, but also reduces the amount of possible unique tags. AprilTags are designed to work with low resolution images, where the likelihood of noise resembling a valid tag is extremely small. For high resolution images as is commonly used in photogrammetry, it is recommended to use a tag with a high Hamming distance, such as the previously named \u003Ccode\u003E36h11\u003C\u002Fcode\u003E.\u003C\u002Fp\u003E\\n\u003Ch2\u003ENon-coded markers\u003C\u002Fh2\u003E\\n\u003Cp\u003EMarkers that do not include any kind of code usually provide a hight contrast features for photogrammetry software to recognize. In addition they make it easier for humans to manually find the same points in multiple pictures for manual control points.\u003C\u002Fp\u003E\\n\u003Chr class=\\\"footnotes-sep\\\"\u003E\\n\u003Csection class=\\\"footnotes\\\"\u003E\\n\u003Col class=\\\"footnotes-list\\\"\u003E\\n\u003Cli id=\\\"fn1\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fwww.3dflow.net\u002Fzephyr-doc\u002Fen\u002FPrintMarkersandmarkersuse.html\\\"\u003Ehttps:\u002F\u002Fwww.3dflow.net\u002Fzephyr-doc\u002Fen\u002FPrintMarkersandmarkersuse.html\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref1\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn2\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fwww.agisoft.com\u002Fpdf\u002Fmetashape-pro_1_8_en.pdf\\\"\u003Ehttps:\u002F\u002Fwww.agisoft.com\u002Fpdf\u002Fmetashape-pro_1_8_en.pdf\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref2\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref2:1\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn3\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fsupport.capturingreality.com\u002Fhc\u002Fen-us\u002Farticles\u002F360003869672-How-to-use-Detect-Markers-Tool\\\"\u003Ehttps:\u002F\u002Fsupport.capturingreality.com\u002Fhc\u002Fen-us\u002Farticles\u002F360003869672-How-to-use-Detect-Markers-Tool\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref3\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref3:1\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn4\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003EOlson, E. (2011). \u003Cem\u003EAprilTag: A robust and flexible visual fiducial system\u003C\u002Fem\u003E. Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 3400–3407. \u003Ca href=\\\"#fnref4\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn5\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fwww.3dflow.net\u002Ftechnology\u002Fdocuments\u002F3df-zephyr-tutorials\u002Fcoded-targets-automatic-detection\u002F\\\"\u003Ehttps:\u002F\u002Fwww.3dflow.net\u002Ftechnology\u002Fdocuments\u002F3df-zephyr-tutorials\u002Fcoded-targets-automatic-detection\u002F\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref5\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn6\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003EWang, J., &amp; Olson, E. (2016, October). \u003Cem\u003EAprilTag 2: Efficient and robust fiducial detection\u003C\u002Fem\u003E. Proceedings of the IEEE\u002FRSJ International Conference on Intelligent Robots and Systems (IROS). \u003Ca href=\\\"#fnref6\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003Cli id=\\\"fn7\\\" class=\\\"footnote-item\\\"\u003E\u003Cp\u003E\u003Ca href=\\\"https:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FHamming_distance\\\"\u003Ehttps:\u002F\u002Fen.wikipedia.org\u002Fwiki\u002FHamming_distance\u003C\u002Fa\u003E \u003Ca href=\\\"#fnref7\\\" class=\\\"footnote-backref\\\"\u003E↩︎\u003C\u002Fa\u003E\u003C\u002Fp\u003E\\n\u003C\u002Fli\u003E\\n\u003C\u002Fol\u003E\\n\u003C\u002Fsection\u003E\\n\"}"}</script></div>
+	</body>
+</html>
